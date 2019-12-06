@@ -1,0 +1,72 @@
+.page3-text{
+ text-align: center;
+
+}
+
+
+.forme{
+    position:absolute;
+    border-radius:4px ;
+    text-align: center;
+    background: #3d83df;
+    color:white;
+    height:30px ;
+    width:110px ;
+   right:0;
+}
+
+.galerie{
+    display:block;
+    border:1px solid white;
+    background: white;
+    margin:10px;
+    border-radius: 5px;
+    padding:20px;
+    width: 307px;
+    height: 351px;
+   
+
+    
+}
+
+.bt-para{
+  display:flex;
+  justify-content: space-between;
+  position:relative;
+  
+   
+   
+}
+.galerie:hover{
+    display: block;
+    font-size: 120%;
+    box-shadow:0 0 20px rgba(33,33,33,.2); 
+ 
+}
+.box-image{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+ color: rgb(171, 171, 171);
+}
+.footer a {
+    color:blue !important;
+    
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+
+    Font-size: 12px !important;
+
+}
+.footer a:hover{
+    text-decoration: underline;
+    color:blue;
+}
